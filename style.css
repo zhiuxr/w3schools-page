@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     color:#f1f1f1 ;
 }
 .head {
@@ -30,11 +30,13 @@ body {
     height: 35px;
 }
 .right ul li a {
+    display: block;
     text-align: center;
     text-decoration: none;
     color: #D3CFC9;
-    padding: 27.5px 20px;
-    font-size: 22px;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 .li1 {
     background-color: #191A1A;
@@ -77,8 +79,9 @@ body {
     display: inline-block;
 }
 .menu ul li a {
-    font-size: 22px;
-    padding: 22.5px 20.5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 25.5px 20.5px;
     display: flex;
     text-decoration: none;
     color: #D3CFC9;
@@ -144,25 +147,147 @@ body {
     color:#E8E6E3 ;
     margin-top: 30px;
 }
+.html {
+    height: 585px;
+    background-color: #1B3B2B;
+    position: relative;
+}
+.html .right {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.html .right .example {
+    position: absolute;
+    right: 30%;
+    bottom: 15%;
+    height: 430px;
+    width: 555px;
+    background-color: #2C373E;
+    box-shadow: 0 0 10px rgb(40, 40, 40);
+    border-radius: 10px;
+    font-weight: 500;
+}
+.h2 {
+    height: 15%;
+
+}
+.html .right .example h3 {
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    font-size: 23px;
+    color: #D3CFC9;
+}
+.html .right .example .course {
+    bottom: 0;
+    height: 70%;
+    margin: 0 15px;
+    background-color: #101A23;
+    border-left: 4px solid #7D7566 ;
+    padding: 20px;
+}
+.source-code {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+.a {
+    position: absolute;
+    bottom: 13px;
+    left: 10px;
+    background-color: #038857;
+    border-radius: 20px;
+}
+.a a {
+    display: flex;
+    font-size: 16px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #E8E6E3;
+}
+.html .left {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+.html .left .child {
+    position: absolute;
+    left: 45%;
+    bottom: 15%;
+    width: 55%;
+    right: 0;
+    text-align: center;
+}
+.html .left h1 {
+    color: #E8E6E3;
+    font-size: 85px;
+    padding-top: 105px;
+    font-weight: 500;
+}
+.html .left p {
+    color: #E8E6E3;
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.html .left .child ul {
+    list-style-type: none;
+}
+.html .left .child li {
+    display: flex;
+    margin: 20px 0;
+}
+.html .left .child a {
+    width: 190px;
+    border-radius: 60px;
+    margin: auto;
+    text-decoration: none;
+    color: #E8E6E3;
+    padding: 8px 0;
+    font-size: 19px;
+    font-weight:500;
+}
+.html .left .child .a1 {
+    background-color: #028856;
+} 
+.html .left .child .a1:hover {
+    background-color: #057A4F;
+}
+.html .left .child .a2 {
+    background-color: #514700;
+} 
+.html .left .child .a2:hover {
+    background-color: #5E5500;
+}
+.html .left .child .a3 {
+    background-color: #21222B;
+} 
+.html .left .child .a3:hover {
+    background-color: #000101;
+}
+.html .left .child .a4 {
+    background-color: #59000A;
+} 
+.html .left .child .a4:hover {
+    background-color: #60000B;
+}
 .css {
-    height: 540px;
+    height: 585px;
     background-color: #514700;
 }
 .javascript {
-    height: 540px;
+    height: 525px;
     background-color: #0B131A;
 }
 .python {
-    height: 540px;
+    height: 525px;
     background-color: #2C1E1B;
 }
 .sql {
-    height: 540px;
+    height: 505px;
     background-color: #286263;
-}
-.html {
-    height: 670px;
-    background-color: #1B3B2B;
 }
 ::-webkit-scrollbar {
     width: 14px;
