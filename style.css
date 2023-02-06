@@ -222,7 +222,7 @@ body {
 }
 .html .left h1 {
     color: #E8E6E3;
-    font-size: 85px;
+    font-size: 100px;
     padding-top: 105px;
     font-weight: 500;
 }
@@ -276,6 +276,121 @@ body {
 .css {
     height: 585px;
     background-color: #514700;
+}
+.css .right {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.css .right .example {
+    position: absolute;
+    right: 30%;
+    bottom: 47%;
+    height: 430px;
+    width: 555px;
+    background-color: #2C373E;
+    box-shadow: 0 0 10px rgb(40, 40, 40);
+    border-radius: 10px;
+    font-weight: 500;
+}
+.css .h2 {
+    height: 15%;
+
+}
+.css .right .example h3 {
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    font-size: 23px;
+    color: #D3CFC9;
+}
+.css .right .example .course {
+    bottom: 0;
+    height: 70%;
+    margin: 0 15px;
+    background-color: #101A23;
+    border-left: 4px solid #7D7566 ;
+    padding: 20px;
+}
+.css .source-code {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+.css .a {
+    position: absolute;
+    bottom: 13px;
+    left: 10px;
+    background-color: #038857;
+    border-radius: 20px;
+}
+.css .a a {
+    display: flex;
+    font-size: 16px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #E8E6E3;
+}
+.css .left {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+.css .left .child {
+    position: absolute;
+    left: 45%;
+    bottom: 52%;
+    width: 55%;
+    right: 0;
+    text-align: center;
+}
+.css .left h1 {
+    color: #E8E6E3;
+    font-size: 100px;
+    padding-top: 105px;
+    font-weight: 500;
+}
+.css .left p {
+    color: #E8E6E3;
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.css .left .child ul {
+    list-style-type: none;
+}
+.css .left .child li {
+    display: flex;
+    margin: 20px 0;
+}
+.css .left .child a {
+    width: 190px;
+    border-radius: 60px;
+    margin: auto;
+    text-decoration: none;
+    color: #E8E6E3;
+    padding: 8px 0;
+    font-size: 19px;
+    font-weight:500;
+}
+.css .left .child .a1 {
+    background-color: #028856;
+} 
+.css .left .child .a1:hover {
+    background-color: #057A4F;
+}
+.css .left .child .a2 {
+    background-color: #21222B;
+} 
+.css .left .child .a2:hover {
+    background-color: #000101;
+}
+.css .left .child .a3 {
+    background-color: #59000A;
+} 
+.css .left .child .a3:hover {
+    background-color: #60000B;
 }
 .javascript {
     height: 525px;
