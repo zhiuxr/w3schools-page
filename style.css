@@ -139,6 +139,7 @@ body {
     border-radius: 0 30px 30px 0;
     cursor: pointer;
     outline: none;
+    border-left: 3px solid #04aa6d;
 }
 .page1 a {
     font-weight: bold;
@@ -163,9 +164,8 @@ body {
     right: 30%;
     bottom: 15%;
     height: 430px;
-    width: 555px;
+    width: 620px;
     background-color: #2C373E;
-    box-shadow: 0 0 10px rgb(40, 40, 40);
     border-radius: 10px;
     font-weight: 500;
 }
@@ -182,7 +182,7 @@ body {
 }
 .html .right .example .course {
     bottom: 0;
-    height: 70%;
+    height: 65%;
     margin: 0 15px;
     background-color: #101A23;
     border-left: 4px solid #7D7566 ;
@@ -194,17 +194,20 @@ body {
 }
 .a {
     position: absolute;
-    bottom: 13px;
-    left: 10px;
+    bottom: 23px;
+    left: 15px;
     background-color: #038857;
     border-radius: 20px;
 }
 .a a {
     display: flex;
-    font-size: 16px;
-    padding: 10px 40px;
+    font-size: 18px;
+    padding: 10px 47px;
     text-decoration: none;
     color: #E8E6E3;
+}
+.a:hover {
+    background-color: #047A4E;
 }
 .html .left {
     position: absolute;
@@ -214,7 +217,7 @@ body {
 }
 .html .left .child {
     position: absolute;
-    left: 45%;
+    left: 35%;
     bottom: 15%;
     width: 55%;
     right: 0;
@@ -228,7 +231,7 @@ body {
 }
 .html .left p {
     color: #E8E6E3;
-    font-size: 18px;
+    font-size: 19px;
     padding-top: 20px;
     font-weight: 500;
 }
@@ -240,14 +243,13 @@ body {
     margin: 20px 0;
 }
 .html .left .child a {
-    width: 190px;
+    width: 200px;
     border-radius: 60px;
     margin: auto;
     text-decoration: none;
     color: #E8E6E3;
-    padding: 8px 0;
-    font-size: 19px;
-    font-weight:500;
+    padding: 11px 0;
+    font-size: 18px;
 }
 .html .left .child .a1 {
     background-color: #028856;
@@ -286,11 +288,10 @@ body {
 .css .right .example {
     position: absolute;
     right: 30%;
-    bottom: 47%;
+    bottom: 48%;
     height: 430px;
-    width: 555px;
+    width: 620px;
     background-color: #2C373E;
-    box-shadow: 0 0 10px rgb(40, 40, 40);
     border-radius: 10px;
     font-weight: 500;
 }
@@ -307,7 +308,7 @@ body {
 }
 .css .right .example .course {
     bottom: 0;
-    height: 70%;
+    height: 65%;
     margin: 0 15px;
     background-color: #101A23;
     border-left: 4px solid #7D7566 ;
@@ -319,17 +320,20 @@ body {
 }
 .css .a {
     position: absolute;
-    bottom: 13px;
-    left: 10px;
+    bottom: 23px;
+    left: 15px;
     background-color: #038857;
     border-radius: 20px;
 }
 .css .a a {
     display: flex;
-    font-size: 16px;
-    padding: 10px 40px;
+    font-size: 18px;
+    padding: 10px 47px;
     text-decoration: none;
     color: #E8E6E3;
+}
+.a:hover {
+    background-color: #047A4E;
 }
 .css .left {
     position: absolute;
@@ -339,7 +343,7 @@ body {
 }
 .css .left .child {
     position: absolute;
-    left: 45%;
+    left: 35%;
     bottom: 52%;
     width: 55%;
     right: 0;
@@ -348,12 +352,11 @@ body {
 .css .left h1 {
     color: #E8E6E3;
     font-size: 100px;
-    padding-top: 105px;
     font-weight: 500;
 }
 .css .left p {
     color: #E8E6E3;
-    font-size: 18px;
+    font-size: 19px;
     padding-top: 20px;
     font-weight: 500;
 }
@@ -365,14 +368,13 @@ body {
     margin: 20px 0;
 }
 .css .left .child a {
-    width: 190px;
+    width: 200px;
     border-radius: 60px;
     margin: auto;
     text-decoration: none;
     color: #E8E6E3;
-    padding: 8px 0;
-    font-size: 19px;
-    font-weight:500;
+    padding: 11px 0;
+    font-size: 18px;
 }
 .css .left .child .a1 {
     background-color: #028856;
@@ -396,6 +398,121 @@ body {
     height: 525px;
     background-color: #0B131A;
 }
+.javascript .right {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.javascript .right .example {
+    position: absolute;
+    right: 30%;
+    bottom: 54%;
+    height: 372px;
+    width: 620px;
+    background-color: #2C373E;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.javascript .h2 {
+    height: 15%;
+
+}
+.javascript .right .example h3 {
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    font-size: 23px;
+    color: #D3CFC9;
+}
+.javascript .right .example .course {
+    bottom: 0;
+    height: 65%;
+    margin: 0 15px;
+    background-color: #101A23;
+    border-left: 4px solid #7D7566 ;
+    padding: 20px;
+}
+.javascript .source-code {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+.javascript .a {
+    position: absolute;
+    bottom: 13px;
+    left: 15px;
+    background-color: #038857;
+    border-radius: 20px;
+}
+.javascript .a a {
+    display: flex;
+    font-size: 18px;
+    padding: 10px 47px;
+    text-decoration: none;
+    color: #E8E6E3;
+}
+.a:hover {
+    background-color: #047A4E;
+}
+.javascript .left {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+.javascript .left .child {
+    position: absolute;
+    left: 35%;
+    bottom: 56%;
+    width: 55%;
+    right: 0;
+    text-align: center;
+}
+.javascript .left h1 {
+    color: #E8E6E3;
+    font-size: 70px;
+    font-weight: 500;
+}
+.javascript .left p {
+    color: #E8E6E3;
+    font-size: 19px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.javascript .left .child ul {
+    list-style-type: none;
+}
+.javascript .left .child li {
+    display: flex;
+    margin: 20px 0;
+}
+.javascript .left .child a {
+    width: 200px;
+    border-radius: 60px;
+    margin: auto;
+    text-decoration: none;
+    color: #E8E6E3;
+    padding: 11px 0;
+    font-size: 18px;
+}
+.javascript .left .child .a1 {
+    background-color: #028856;
+} 
+.javascript .left .child .a1:hover {
+    background-color: #057A4F;
+}
+.javascript .left .child .a2 {
+    background-color: #21222B;
+} 
+.javascript .left .child .a2:hover {
+    background-color: #000101;
+}
+.javascript .left .child .a3 {
+    background-color: #59000A;
+} 
+.javascript .left .child .a3:hover {
+    background-color: #60000B;
+}
 .python {
     height: 525px;
     background-color: #2C1E1B;
@@ -416,4 +533,3 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
-  
