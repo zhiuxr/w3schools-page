@@ -517,6 +517,121 @@ body {
     height: 525px;
     background-color: #2C1E1B;
 }
+.python .right {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.python .right .example {
+    position: absolute;
+    right: 30%;
+    bottom: 54%;
+    height: 372px;
+    width: 620px;
+    background-color: #2C373E;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.python .h2 {
+    height: 15%;
+
+}
+.python .right .example h3 {
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    font-size: 23px;
+    color: #D3CFC9;
+}
+.python .right .example .course {
+    bottom: 0;
+    height: 65%;
+    margin: 0 15px;
+    background-color: #101A23;
+    border-left: 4px solid #7D7566 ;
+    padding: 20px;
+}
+.python .source-code {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+.python .a {
+    position: absolute;
+    bottom: 13px;
+    left: 15px;
+    background-color: #038857;
+    border-radius: 20px;
+}
+.python .a a {
+    display: flex;
+    font-size: 18px;
+    padding: 10px 47px;
+    text-decoration: none;
+    color: #E8E6E3;
+}
+.a:hover {
+    background-color: #047A4E;
+}
+.python .left {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+.python .left .child {
+    position: absolute;
+    left: 35%;
+    bottom: 56%;
+    width: 55%;
+    right: 0;
+    text-align: center;
+}
+.python .left h1 {
+    color: #E8E6E3;
+    font-size: 70px;
+    font-weight: 500;
+}
+.python .left p {
+    color: #E8E6E3;
+    font-size: 19px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.python .left .child ul {
+    list-style-type: none;
+}
+.python .left .child li {
+    display: flex;
+    margin: 20px 0;
+}
+.python .left .child a {
+    width: 200px;
+    border-radius: 60px;
+    margin: auto;
+    text-decoration: none;
+    color: #E8E6E3;
+    padding: 11px 0;
+    font-size: 18px;
+}
+.python .left .child .a1 {
+    background-color: #028856;
+} 
+.python .left .child .a1:hover {
+    background-color: #057A4F;
+}
+.python .left .child .a2 {
+    background-color: #21222B;
+} 
+.python .left .child .a2:hover {
+    background-color: #000101;
+}
+.python .left .child .a3 {
+    background-color: #59000A;
+} 
+.python .left .child .a3:hover {
+    background-color: #60000B;
+}
 .sql {
     height: 505px;
     background-color: #286263;
